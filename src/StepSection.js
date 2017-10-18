@@ -86,9 +86,9 @@ class StepSection extends React.Component {
               {d.title}
             </StepButton>
             <StepContent>
-              <p>
+              <div style={{margin: "15px 0px"}}>
                 {d.content}
-              </p>
+              </div>
               {this.renderStepActions(index)}
             </StepContent>
           </Step>

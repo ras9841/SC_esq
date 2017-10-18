@@ -3,7 +3,6 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton';
 
 const ImageSection = (props) => {
-  console.log(props.data, props.selectedIndex)
   let selectedImage = props.data[props.selectedIndex].image;
   return (
     <Card>
