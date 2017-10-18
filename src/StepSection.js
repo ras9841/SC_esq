@@ -4,6 +4,9 @@ import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
 
+const down = "keyboard_arrow_down";
+const right = "keyboard_arrow_right";
+
 class StepSection extends React.Component {
   constructor(props) {
     super(props);
@@ -11,6 +14,7 @@ class StepSection extends React.Component {
 
     this.state = {
       stepIndex: 0,
+      icon: down
     };
   }
 
@@ -53,9 +57,17 @@ class StepSection extends React.Component {
     );
   }
 
+  handleOnClick(index) {
+    this.setState({
+      stepIndex: index,
+    })
+  }
+
   render() {
     const {stepIndex} = this.state;
     const {data} = this.props;
+    const activeIcon = <FontIcon className="material-icons">keyboard_arrow_right</FontIcon>;
+    const defaultIcon = <FontIcon className="material-icons">keyboard_arrow_down</FontIcon>
     return (
       <div>
         <Stepper
@@ -67,7 +79,7 @@ class StepSection extends React.Component {
             <Step key={index}>
             <StepButton
               onClick={() => this.setState({stepIndex: index})}
-              icon={<FontIcon className="material-icons">add_circle_outline</FontIcon>}
+              icon={index === stepIndex ? activeIcon : defaultIcon}
               >
               {d.title}
             </StepButton>
