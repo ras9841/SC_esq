@@ -10,6 +10,7 @@ const App = () => (
   <MuiThemeProvider>
     <div>
       <Navbar/>
+        <img src="../temp.png" style={{"width": "100%", "padding-bottom": "50px"}}/>
       <Header/>
       <LowerContent/>
     </div>
