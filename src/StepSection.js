@@ -8,16 +8,23 @@ class StepSection extends React.Component {
   constructor(props) {
     super(props);
     this.numSections = props.data.length;
+    this.setParentState = props.setParentState;
 
     this.state = {
       stepIndex: 0,
     };
   }
 
+  handleCurrent = (index) => {
+    this.setState({stepIndex: index});
+    this.setParentState(index);
+  }
+
   handleNext = () => {
     const {stepIndex} = this.state;
     if (stepIndex < this.numSections) {
       this.setState({stepIndex: stepIndex + 1});
+      this.setParentState(stepIndex + 1);
     }
   };
 
@@ -25,6 +32,7 @@ class StepSection extends React.Component {
     const {stepIndex} = this.state;
     if (stepIndex > 0) {
       this.setState({stepIndex: stepIndex - 1});
+      this.setParentState(stepIndex - 1);
     }
   };
 
@@ -66,7 +74,7 @@ class StepSection extends React.Component {
           {data.map((d, index) => (
             <Step key={index}>
             <StepButton
-              onClick={() => this.setState({stepIndex: index})}
+              onClick={() => this.handleCurrent(index)}
               icon={<FontIcon className="material-icons">add_circle_outline</FontIcon>}
               >
               {d.title}

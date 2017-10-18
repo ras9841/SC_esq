@@ -3,7 +3,8 @@
 }
 
 .lowerContent > .imageContainer {
-  width: 45%;
+  width: 40%;
+  float: left;
 }
 
 .lowerContent > .stepContainer {

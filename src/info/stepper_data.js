@@ -12,7 +12,11 @@ const stepper_data = [
                 Albion High School, 1976
                 Member, Alumni Association
                 Member, Sports Hall of Fame`,
-    image: null,
+    image: {
+      src: "sandy_profile.jpg",
+      caption: "Sandy Church, Esq",
+      subcaption: "2017 Candidate for Orleans County Judge"
+    },
   },
   {
     title: "Local Experience",
@@ -35,7 +39,11 @@ const stepper_data = [
               Court Evaluator: Appointed by the court to investigate and report on people who allegedly need a guardian to protect their interests.
               Court Attorney/Referee: Worked for Judges in Orleans and Genesee Counties who presided over Supreme Court cases. Responsibilities included legal research, drafting decisions, and conducting settlement conferences.
               Represented hundreds of parents and children in divorces.`,
-    image: null,
+    image: {
+      src: "sandy_profile.jpg",
+      caption: "Sandy Church, Esq",
+      subcaption: "2017 Candidate for Orleans County Judge"
+    }
   },
   {
     title: "Community Involvement",
@@ -57,7 +65,11 @@ const stepper_data = [
       Eight Judicial District Grievance Committee (past)
       Surrogate Decision-Making Committee (past)
     `,
-    image: null
+    image: {
+      src: "sandy_profile.jpg",
+      caption: "Sandy Church, Esq",
+      subcaption: "2017 Candidate for Orleans County Judge"
+    }
   },
   {
     title: "Awards and Endorsements",
@@ -71,7 +83,11 @@ const stepper_data = [
       John Gavenda, Esq. Dana Graber, Esq. Edward Grabowski, Esq. Doug Heath, Esq. Tom Mack, Esq. Lance Mark, Esq
       Jeff Martin, Esq. Andrew Meier, Esq.	Michael O’Keefe, Esq. Nathan Pace, Esq. David Schubel, Esq.
     `,
-    image: null
+    image: {
+      src: "sandy_profile.jpg",
+      caption: "Sandy Church, Esq",
+      subcaption: "2017 Candidate for Orleans County Judge"
+    }
   }
 ];
 
