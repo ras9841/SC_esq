@@ -51,6 +51,57 @@ let local_exp = () => {
   );
 }
 
+let loc_inv = () => (
+  <div>
+    <div>
+    Albion Area
+    <ul>
+      <li> Albion Central School District Board of Education (past) </li>
+      <li> Albion Elks Club (present) </li>
+      <li> Albion Lions Club (present) </li>
+      <li> Albion Rotary Club President & Director (past) </li>
+      <li> Albion Youth Basketball & Baseball Coach (present) </li>
+      <li> Village of Albion Historic Preservation Commission Chairperson (present) </li>
+    </ul>
+  </div>
+  <div>
+    Orleans County and New York State
+    <ul>
+      <li> Orleans County Youth Board (past) </li>
+      <li> Orleans County Attorney for the Child Panel (present) </li>
+      <li> Orleans County Bar Association (present) </li>
+      <li> Orleans County Bar Association President (present) </li>
+      <li> New York State Bar Association (present) </li>
+      <li> New York State House of Delegates (past) </li>
+      <li> American Bar Association (present) </li>
+      <li> Eight Judicial District Grievance Committee (past) </li>
+      <li> Surrogate Decision-Making Committee (past) </li>
+    </ul>
+  </div>
+  </div>
+);
+
+let awards_endor = () => (
+  <div>
+    <div>
+    Awards
+    <ul>
+      <li> Orleans County Youth Board: Eileen Heye Adult Volunteer </li>
+      <li> Albion Rotary Club: Paul Harris Award </li>
+    </ul>
+    </div>
+    <div>
+      Recent Endorsements
+      <ul>
+        <li>Hon. James P. Punch</li>
+        <li>Attorneys (Esq): Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
+       John Gavenda, Dana Graber, Edward Grabowski, Doug Heath, Tom Mack, Lance Mark,
+       Jeff Martin, Andrew Meier, Michael O’Keefe, Nathan Pace, David Schubel</li>
+      </ul>
+    </div>
+  </div>
+);
+
 const stepper_data = [
   {
     title: "At a glance",
@@ -80,25 +131,8 @@ const stepper_data = [
     }
   },
   {
-    title: "Community Involvement",
-    content: `
-      Albion Central School District Board of Education (past),
-      Albion Elks Club (present),
-      Albion Lions Club (present),
-      Albion Rotary Club President & Director (past),
-      Albion Youth Basketball & Baseball Coach (present),
-      Village of Albion Historic Preservation Commission Chairperson (present),
-      Orleans County Youth Board (past)
-
-      Orleans County Attorney for the Child Panel (present),
-      Orleans County Bar Association (present),
-      Orleans County Bar Association President (present),
-      New York State Bar Association (present),
-      New York State House of Delegates (past),
-      American Bar Association (present)
-      Eight Judicial District Grievance Committee (past)
-      Surrogate Decision-Making Committee (past)
-    `,
+    title: "Local Involvement",
+    content: loc_inv(),
     image: {
       src: "sandy_profile.jpg",
       caption: "Sandy Church, Esq",
@@ -107,16 +141,7 @@ const stepper_data = [
   },
   {
     title: "Awards and Endorsements",
-    content: `
-      Awards:
-        Orleans County Youth Board, past member and Eileen Heye Adult Volunteer
-        Albion Rotary Club, past president and recipient of Paul Harris Award
-      Endorsements:
-      Hon. James P. Punch Kevin Allen, Esq.
-      James Bell, Esq.	Joanne Best, Esq Conrad Cropsey, Esq.
-      John Gavenda, Esq. Dana Graber, Esq. Edward Grabowski, Esq. Doug Heath, Esq. Tom Mack, Esq. Lance Mark, Esq
-      Jeff Martin, Esq. Andrew Meier, Esq.	Michael O’Keefe, Esq. Nathan Pace, Esq. David Schubel, Esq.
-    `,
+    content: awards_endor(),
     image: {
       src: "sandy_profile.jpg",
       caption: "Sandy Church, Esq",
