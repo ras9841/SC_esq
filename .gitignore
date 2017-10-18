@@ -9,6 +9,8 @@
 # production
 /build
 
+C:Develnodejsnpm-cache/
+
 # misc
 .DS_Store
 .env.local
