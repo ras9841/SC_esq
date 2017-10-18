@@ -1,0 +1,12 @@
+.lowerContent {
+  margin: 10px 30px;
+}
+
+.lowerContent > .imageContainer {
+  width: 45%;
+}
+
+.lowerContent > .stepContainer {
+  width: 50%;
+  float: right;
+}
