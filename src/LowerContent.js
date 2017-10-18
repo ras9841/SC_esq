@@ -17,7 +17,7 @@ class LowerContent extends Component {
 
   render() {
     return (
-      <div className="lowerContent">
+      <div id="learn-more" className="lowerContent">
         <div className="imageContainer">
           <ImageSection data={stepper_data} selectedIndex={this.state.selected}/>
         </div>
