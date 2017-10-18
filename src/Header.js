@@ -19,7 +19,7 @@ const Header = (props) => (
     <div className="phrase">
       Integrity - Experience - Commitment
     </div>
-    <FontIcon onClick={() => document.getElementById("learn-more").scrollIntoView()} className="material-icons" style={{"color": "white"}}>keyboard_arrow_down</FontIcon>
+    <FontIcon onClick={() => document.getElementById("learn-more").scrollIntoView()} className="material-icons" style={{"color": "white", "font-size": "75px"}}>keyboard_arrow_down</FontIcon>
   </div>
 );
 
