@@ -5,13 +5,15 @@ let at_a_glance = () => (
   <div>
     Hello!
     <p>
-    I am Sanford (Sandy) A. Church, the Republican Candidate for Orleans County Court Judge.
-    My family has been a part of the Orleans County community for years, and my office at
-    3 East Bank Street, Albion NY has been in the family for five generations.
+    I'm Sanford (Sandy) A. Church, the Republican Candidate for Orleans County Court Judge.
+    My family has been a part of the Orleans County community for decades, and my office inspect
+    in Albion on East Bank Street has been in the family for five generations. I live in Albion
+    with Diane, my wife of 29 years, and my dog Daisy. My two children, Ben and Molly, grew
+    up in Albion and are both Albion High School graduates.
     </p>
     <p>
     I started practicing law in 1985 and have been part of the Orleans County Bar
-    Association for over 15 years. During my 32 years in the area, I have worked
+    Association for over 15 years. During my 32 years working in the area, I have served
     in each of the of the Courts that the County Court Judge presides.
     </p>
   </div>

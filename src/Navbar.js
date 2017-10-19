@@ -26,7 +26,7 @@ export default class Navbar extends Component {
           <div style={{display: "flex", float: "left"}}>
             <ToolbarTitle
               style={{marginLeft: "10px", marginTop: "3px"}}
-              text="Sandy Church, Esq."/>
+              text="Sanford Church, Esq."/>
           </div>
           <div style={{display: "flex", float: "right", marginRight: "25px"}}>
             <FlatButton
