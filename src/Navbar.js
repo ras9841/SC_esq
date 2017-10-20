@@ -28,10 +28,9 @@ export default class Navbar extends Component {
             style={{marginLeft: "10px", marginTop: "3px"}}
             text="Sanford Church, Esq."/>
         </div>
-        <div style={{display: "flex", float: "right", marginRight: "15px", marginTop: "5px"}}>
-          <a href={fb_url} style={{color: "white"}}>
-            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"/>
-          </a>
+        <div style={{display: "flex", float: "right", marginRight: "15px", marginTop: "15px"}}>
+          <a href="mailto:sanfordchurchlaw@gmail.com" style={{color: "white", marginRight: "15px"}}><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href={fb_url} style={{color: "white"}}><i class="fa fa-facebook-official fa-2x" aria-hidden="true"/></a>
         </div>
     </Paper>
     )
