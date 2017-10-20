@@ -3,7 +3,6 @@ import {Step, Stepper, StepButton, StepContent} from 'material-ui/Stepper';
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
-
 import './StepSection.css';
 
 class StepSection extends React.Component {
@@ -41,22 +40,25 @@ class StepSection extends React.Component {
   renderStepActions(step) {
     return (
       <div style={{margin: '12px 0'}}>
-        {step < this.numSections - 1 && (
-          <RaisedButton
-            label="Next"
-            disableTouchRipple={true}
-            disableFocusRipple={true}
-            primary={true}
-            onClick={this.handleNext}
-            style={{marginRight: 12}}
-          />
-        )}
         {step > 0 && (
           <FlatButton
-            label="Back"
+            style={{marginRight: "10px"}}
+            backgroundColor="rgb(224, 224, 224)"
+            label="Previous"
             disableTouchRipple={true}
             disableFocusRipple={true}
             onClick={this.handlePrev}
+          />
+        )}
+        {step < this.numSections - 1 && (
+          <RaisedButton
+            backgroundColor="rgb(65, 86, 161)"
+            label="Forward"
+            labelColor="rgb(255,255,255)"
+            disableTouchRipple={true}
+            disableFocusRipple={true}
+            onClick={this.handleNext}
+            style={{marginRight: 12}}
           />
         )}
       </div>

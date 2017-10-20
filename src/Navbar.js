@@ -16,27 +16,22 @@ let paperStyle = {
   paddingRight: "10px",
   backgroundColor: blue,
   zIndex: "2",
-  color: "rgb(224, 224, 224)"
+  color: "white"
 }
 
 export default class Navbar extends Component {
   render() {
     return (
       <Paper zDepth={4} rounded={false} style={paperStyle}>
-          <div style={{display: "flex", float: "left"}}>
-            <ToolbarTitle
-              style={{marginLeft: "10px", marginTop: "3px"}}
-              text="Sanford Church, Esq."/>
-          </div>
-          <div style={{display: "flex", float: "right", marginRight: "25px"}}>
-            <FlatButton
-            href={fb_url}
-            label=" Facebook"
-            style={{marginTop: "9px"}}
-            icon={<FontIcon className="material-icons">thumb_up</FontIcon>}
-            backgroundColor="rgb(224, 224, 224)"
-          />
-      </div>
+        <div style={{display: "flex", float: "left"}}>
+          <ToolbarTitle
+            style={{marginLeft: "10px", marginTop: "3px"}}
+            text="Sanford Church, Esq."/>
+        </div>
+        <div style={{display: "flex", float: "right", marginRight: "15px", marginTop: "15px"}}>
+          <a href="mailto:sanfordchurchlaw@gmail.com" style={{color: "white", marginRight: "15px"}}><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href={fb_url} style={{color: "white"}}><i class="fa fa-facebook-official fa-2x" aria-hidden="true"/></a>
+        </div>
     </Paper>
     )
   }
