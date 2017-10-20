@@ -22,3 +22,12 @@
 #pageNavArrow:hover {
   color: rgb(66, 103, 178)!important;
 }
+
+@media screen and (max-width: 500px){
+  .name {
+    font-size: 30px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+}
