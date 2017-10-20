@@ -43,22 +43,22 @@ class StepSection extends React.Component {
   renderStepActions(step) {
     return (
       <div style={{margin: '12px 0'}}>
+        {step > 0 && (
+          <FlatButton
+            label="Previous"
+            disableTouchRipple={true}
+            disableFocusRipple={true}
+            onClick={this.handlePrev}
+          />
+        )}
         {step < this.numSections - 1 && (
           <RaisedButton
-            label="Next"
+            label="Forward"
             disableTouchRipple={true}
             disableFocusRipple={true}
             primary={true}
             onClick={this.handleNext}
             style={{marginRight: 12}}
-          />
-        )}
-        {step > 0 && (
-          <FlatButton
-            label="Back"
-            disableTouchRipple={true}
-            disableFocusRipple={true}
-            onClick={this.handlePrev}
           />
         )}
       </div>
