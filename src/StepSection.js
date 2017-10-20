@@ -3,9 +3,7 @@ import {Step, Stepper, StepButton, StepContent} from 'material-ui/Stepper';
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
-
-const down = "keyboard_arrow_down";
-const right = "keyboard_arrow_right";
+import './StepSection.css';
 
 class StepSection extends React.Component {
   constructor(props) {
@@ -14,8 +12,7 @@ class StepSection extends React.Component {
     this.setParentState = props.setParentState;
 
     this.state = {
-      stepIndex: 0,
-      icon: down
+      stepIndex: 0
     };
   }
 
@@ -45,6 +42,8 @@ class StepSection extends React.Component {
       <div style={{margin: '12px 0'}}>
         {step > 0 && (
           <FlatButton
+            style={{marginRight: "10px"}}
+            backgroundColor="rgb(224, 224, 224)"
             label="Previous"
             disableTouchRipple={true}
             disableFocusRipple={true}
@@ -53,10 +52,11 @@ class StepSection extends React.Component {
         )}
         {step < this.numSections - 1 && (
           <RaisedButton
+            backgroundColor="rgb(65, 86, 161)"
             label="Forward"
+            labelColor="rgb(255,255,255)"
             disableTouchRipple={true}
             disableFocusRipple={true}
-            primary={true}
             onClick={this.handleNext}
             style={{marginRight: 12}}
           />
