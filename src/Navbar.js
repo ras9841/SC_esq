@@ -9,12 +9,12 @@ import './Navbar.css';
 import {ToolbarTitle} from 'material-ui/Toolbar';
 
 let fb_url = "https://www.facebook.com/Sandy-Church-for-Orleans-County-Judge-347020802407415/";
-let fb_blue = "#4267b2";
+let blue = "#4156a1";
 let paperStyle = {
   position: "fixed",
   width: "100%",
   paddingRight: "10px",
-  backgroundColor: fb_blue,
+  backgroundColor: blue,
   zIndex: "2",
   color: "rgb(224, 224, 224)"
 }
