@@ -4,8 +4,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
 
-const down = "keyboard_arrow_down";
-const right = "keyboard_arrow_right";
+import './StepSection.css';
 
 class StepSection extends React.Component {
   constructor(props) {
@@ -14,8 +13,7 @@ class StepSection extends React.Component {
     this.setParentState = props.setParentState;
 
     this.state = {
-      stepIndex: 0,
-      icon: down
+      stepIndex: 0
     };
   }
 
@@ -83,7 +81,9 @@ class StepSection extends React.Component {
               onClick={() => this.setState({stepIndex: index})}
               icon={index === stepIndex ? activeIcon : defaultIcon}
               >
-              {d.title}
+              <span class="stepTitle">
+                {d.title}
+              </span>
             </StepButton>
             <StepContent>
               <div style={{margin: "15px 0px"}}>

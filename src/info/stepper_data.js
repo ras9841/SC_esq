@@ -23,18 +23,18 @@ let education = () => (
   <div>
     Duke University School of Law
     <ul>
-      <li> JD, 1984 </li>
-      <li> Note Editor Duke Law Journal </li>
+      <li> Juris Doctor, 1984 </li>
+      <li> Duke Law Journal, Note Editor </li>
     </ul>
     Wake Forest University
     <ul>
-      <li> BA (History), 1980 </li>
-      <li> Phi Beta Kappa </li>
+      <li> Bachelor of the Arts: History, 1980 </li>
+      <li> Phi Beta Kappa, Member </li>
     </ul>
     Albion High School
     <ul>
-      <li>Graduating class of '76</li>
-      <li>Alumni Association Member</li>
+      <li>Graduating class, 1976</li>
+      <li>Alumni Association, Member</li>
     </ul>
   </div>
 );
@@ -56,30 +56,41 @@ let local_exp = () => {
 let loc_inv = () => (
   <div>
     <div>
-    Albion Area
+    Albion
     <ul>
-      <li> Albion Central School District Board of Education (past) </li>
-      <li> Albion Elks Club (present) </li>
-      <li> Albion Lions Club (present) </li>
-      <li> Albion Rotary Club President & Director (past) </li>
-      <li> Albion Youth Basketball & Baseball Coach (present) </li>
-      <li> Village of Albion Historic Preservation Commission Chairperson (present) </li>
+      <li> Board of Education Member (past) </li>
+      <li> Elks Club Member (present) </li>
+      <li> Lions Club Member (present) </li>
+      <li> Rotary Club President & Director (past) </li>
+      <li> Youth Basketball & Baseball Coach (present) </li>
+      <li> Village Historic Preservation Commission Chairperson (present) </li>
     </ul>
   </div>
   <div>
-    Orleans County and New York State
+    Orleans County
     <ul>
-      <li> Orleans County Youth Board (past) </li>
-      <li> Orleans County Attorney for the Child Panel (present) </li>
-      <li> Orleans County Bar Association (present) </li>
-      <li> Orleans County Bar Association President (present) </li>
-      <li> New York State Bar Association (present) </li>
-      <li> New York State House of Delegates (past) </li>
-      <li> American Bar Association (present) </li>
-      <li> Eight Judicial District Grievance Committee (past) </li>
+      <li> Youth Board Member (past) </li>
+      <li> Attorney for the Child Panel (present) </li>
+      <li> Bar Association Member (present) </li>
+      <li> Bar Association President (present) </li>
       <li> Surrogate Decision-Making Committee (past) </li>
     </ul>
   </div>
+  <div>
+    New York State
+    <ul>
+      <li> Bar Association Member (present) </li>
+      <li> House of Delegates Member (past) </li>
+      <li> Eight Judicial District Grievance Committee (past) </li>
+    </ul>
+  </div>
+  <div>
+    United States
+    <ul>
+      <li> American Bar Association (present) </li>
+    </ul>
+  </div>
+  <div style={{height: "5px"}}></div>
   </div>
 );
 
@@ -110,7 +121,7 @@ const stepper_data = [
     content: at_a_glance(),
     image: {
       src: "sandy_profile.jpg",
-      caption: "Sandy Church, Esq",
+      caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
   },
@@ -119,34 +130,34 @@ const stepper_data = [
     content: education(),
     image: {
       src: "sandy_profile.jpg",
-      caption: "Sandy Church, Esq",
+      caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
   },
   {
-    title: "Local Experience",
+    title: "Local experience",
     content: local_exp(),
     image: {
       src: "sandy_profile.jpg",
-      caption: "Sandy Church, Esq",
+      caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
   },
   {
-    title: "Local Involvement",
+    title: "Local involvement",
     content: loc_inv(),
     image: {
       src: "sandy_profile.jpg",
-      caption: "Sandy Church, Esq",
+      caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
   },
   {
-    title: "Awards and Endorsements",
+    title: "Awards and endorsements",
     content: awards_endor(),
     image: {
       src: "sandy_profile.jpg",
-      caption: "Sandy Church, Esq",
+      caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
   }
