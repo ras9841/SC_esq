@@ -11,7 +11,6 @@ class LowerContent extends Component {
   }
 
   setIndex = (val) => {
-    console.log(val);
     this.setState({selected: val})
   }
 
