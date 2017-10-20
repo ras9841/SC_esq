@@ -1,12 +1,12 @@
 .header {
   text-align: center;
   width: 100%;
-  height: 200px;
-  position: absolute;
-  top: 275px;
+  height: 400px;
+  padding-top: 250px;
   font-family: Futura;
   color: white;
   border-color: white;
+  background: url("temp.png");
 }
 
 .name {
@@ -17,4 +17,8 @@
 .phrase {
 	font-size: 30px;
 	padding-bottom: 30px;
+}
+
+#pageNavArrow:hover {
+  color: rgb(66, 103, 178)!important;
 }
