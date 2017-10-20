@@ -4,8 +4,9 @@
 }
 
 .lowerContent > .imageContainer {
-  width: 40%;
+  width: 48%;
   float: left;
+  display: flex;
 }
 
 .lowerContent > .stepContainer {
@@ -17,7 +18,14 @@ ul {
   margin-top: 5px;
 }
 
-@media screen and (max-width: 760px) {
+@media all and (max-width: 850px)  and (min-width: 500px) {
+  .lowerContent {
+    padding-top: 10px;
+  }
+}
+
+
+@media all and (max-width: 760px) {
   .lowerContent > .stepContainer {
     width: 100%;
     float: right;
@@ -25,5 +33,9 @@ ul {
 
   .lowerContent > .imageContainer {
     display: none;
+  }
+
+  .lowerContent {
+    padding-top: 30px;
   }
 }

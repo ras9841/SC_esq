@@ -7,8 +7,10 @@
   font-family: Futura;
   color: white;
   border-color: white;
-  background: url("temp.png");
+  background: url("splash.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 .name {
@@ -25,11 +27,25 @@
   color: rgb(66, 103, 178)!important;
 }
 
-@media screen and (max-width: 500px){
+@media all and (max-width: 850px)  and (min-width: 500px) {
+  .header {
+    background-image: url("splash_med.png");
+    background-size: cover;
+    height: 300px;
+    padding-top: 205px;
+  }
+}
+
+@media all and (max-width: 500px){
   .name {
     font-size: 25px;
   }
   .phrase {
     font-size: 15px;
+  }
+  .header {
+    background-image: url("splash_small.png");
+    height: 200px;
+    padding-top: 125px;
   }
 }

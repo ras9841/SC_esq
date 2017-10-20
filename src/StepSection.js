@@ -87,7 +87,7 @@ class StepSection extends React.Component {
                 {d.title}
               </span>
             </StepButton>
-            <StepContent>
+            <StepContent transitionDuration={350}>
               <div style={{margin: "15px 0px"}}>
                 {d.content}
               </div>
