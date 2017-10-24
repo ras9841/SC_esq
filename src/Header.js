@@ -5,7 +5,7 @@ import './Header.css';
 const Header = (props) => (
   <div className="header">
     <div className="name">
-      Sandy Church for Orleans County Judge
+      Sandy Church for Orleans County Court Judge
     </div>
     <div className="phrase">
       Integrity - Experience - Commitment

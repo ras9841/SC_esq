@@ -3,3 +3,23 @@
   color: #444;
   font-weight: bold;
 }
+
+.longList {
+  margin-left: 5px;
+}
+
+ul {
+    counter-reset: foo;
+    display: table;
+    padding-left: 30px;
+}
+
+ul > li {
+    counter-increment: foo;
+    display: list-item;
+}
+
+ul > li::before {
+    display: table-cell; /* aha! */
+    text-align: right;
+}
