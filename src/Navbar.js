@@ -27,7 +27,7 @@ export default class Navbar extends Component {
         </div>
         <div style={{display: "flex", float: "right", marginRight: "5px", marginTop: "15px"}}>
           <a href="mailto:sanfordchurchlaw@gmail.com" style={{color: "white", marginTop: "-1px", marginRight: "15px"}}><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-          <a href={fb_url} style={{color: "white"}}><i class="fa fa-facebook-square fa-2x" aria-hidden="true"/></a>
+          <a href={fb_url} style={{color: "white"}}><i className="fa fa-facebook-square fa-2x" aria-hidden="true"/></a>
         </div>
     </Paper>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import ChipArray from '../ChipArray'
+import LegalExperience from '../LegalExperience'
 
 let at_a_glance = () => (
   <div>
@@ -37,19 +37,23 @@ let education = () => (
   </div>
 );
 
-let local_exp = () => {
-  let data = [
-    "County Court", "Assistant District Attorney", "Public Defender",
-    "Drug Treatment Court", "Pistol Permits", "Court Attorney", "Integrated Domestic Violence",
-    "Family Court", "Attorney for the Child", "Adult Parties", "School Attorney", "Court Referee",
-    "Surrogate’s Court", "Supreme Court", "Court Evaluator"
-  ];
-  return (
+let local_exp = () => (
+  <div>
     <div>
-      <ChipArray data={data}/>
+      I have worked as an Orleans County attorney for over 30 years, practiced
+      law as Assistant District Attorney for the last four Orleans County District Attorneys,
+      and served as the Orleans County Public Defender for the past 20 years. Additionally,
+      I have maintained a private practice and have conducted research, drafted decisions, and
+      conducted pretrial conferences as a Court Attorney for judges.
     </div>
-  );
-}
+    <br/>
+    <div>
+      I have experience in all Orleans County Courts.
+    </div>
+    <br/>
+    <LegalExperience/>
+  </div>
+);
 
 let loc_inv = () => (
   <div className="longList">
