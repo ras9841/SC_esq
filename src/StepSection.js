@@ -83,7 +83,7 @@ class StepSection extends React.Component {
               onClick={() => this.setState({stepIndex: index})}
               icon={index === stepIndex ? activeIcon : defaultIcon}
               >
-              <span class="stepTitle">
+              <span className="stepTitle">
                 {d.title}
               </span>
             </StepButton>
