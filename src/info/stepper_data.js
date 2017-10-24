@@ -6,21 +6,19 @@ let at_a_glance = () => (
     Hello!
     <p>
     I'm Sanford (Sandy) A. Church, the Republican Candidate for Orleans County Court Judge.
-    My family has been a part of the Orleans County community for decades, and my office inspect
-    in Albion on East Bank Street has been in the family for five generations. I live in Albion
-    with Diane, my wife of 29 years, and my dog Daisy. My two children, Ben and Molly, grew
+    My family has been a part of the Orleans County community for decades. I am a fifth-generation
+    attorney in Orleans County. I live in Albion with Diane, my wife of 29 years, and my dog Daisy. My two children, Ben and Molly, grew
     up in Albion and are both Albion High School graduates.
     </p>
     <p>
-    I started practicing law in 1985 and have been part of the Orleans County Bar
-    Association for over 15 years. During my 32 years working in the area, I have served
-    in each of the of the Courts that the County Court Judge presides.
+    I started practicing law in 1985. During my 32 years working in Orleans County,
+    I have appeared in each of the of courts over which the County Court Judge presides.
     </p>
   </div>
 );
 
 let education = () => (
-  <div>
+  <div className="longList">
     Duke University School of Law
     <ul>
       <li> Juris Doctor, 1984 </li>
@@ -43,7 +41,7 @@ let local_exp = () => {
   let data = [
     "County Court", "Assistant District Attorney", "Public Defender",
     "Drug Treatment Court", "Pistol Permits", "Court Attorney", "Integrated Domestic Violence",
-    "Family Court", "Law Guardian", "Adult Parties", "School Attorney", "Court Referee",
+    "Family Court", "Attorney for the Child", "Adult Parties", "School Attorney", "Court Referee",
     "Surrogate’s Court", "Supreme Court", "Court Evaluator"
   ];
   return (
@@ -54,62 +52,52 @@ let local_exp = () => {
 }
 
 let loc_inv = () => (
-  <div>
-    <div>
-    Albion
+  <div className="longList">
     <ul>
-      <li> Board of Education Member (past) </li>
-      <li> Elks Club Member (present) </li>
-      <li> Lions Club Member (present) </li>
-      <li> Rotary Club President & Director (past) </li>
-      <li> Youth Basketball & Baseball Coach (present) </li>
-      <li> Village Historic Preservation Commission Chairperson (present) </li>
+      <li>Albion Central School District Board of Education, past member</li>
+      <li>Hospice of Orleans, past Board member for 9 years</li>
+      <li>Village of Albion Historic Preservation Commission, current chairperson</li>
+      <li>Orleans County Youth Board, past member and recipient of Eileen Heye Adult Volunteer Award</li>
+      <li>Albion Lions Club, current member</li>
+      <li>Albion Elks Lodge #1006, current member</li>
+      <li>Albion Rotary Club, past president and Paul Harris Fellow</li>
+      <li>Rotary 5th and 6th grade basketball program - ran program for over 20 years</li>
+      <li>Albion Midget League Coach for 15 years</li>
     </ul>
   </div>
-  <div>
-    Orleans County
+);
+
+let prof_act = () => (
+  <div className="longList">
     <ul>
-      <li> Youth Board Member (past) </li>
-      <li> Attorney for the Child Panel (present) </li>
-      <li> Bar Association Member (present) </li>
-      <li> Bar Association President (present) </li>
-      <li> Surrogate Decision-Making Committee (past) </li>
+      <li>Orleans County Attorney for the Child Panel, current member (over 15 years)</li>
+      <li>Orleans County Bar Association, current member and past president</li>
+      <li>New York State Bar Association, current member and past member of House of Delegates</li>
+      <li>American Bar Association, current member</li>
+      <li>Eighth Judicial District Grievance Committee, past member</li>
+      <li>Surrogate Decision-Making Committee, current member</li>
+      <li>Orleans County Point Person for Veterans Defense Program (New York State Defenders Association) (current)</li>
     </ul>
-  </div>
-  <div>
-    New York State
-    <ul>
-      <li> Bar Association Member (present) </li>
-      <li> House of Delegates Member (past) </li>
-      <li> Eight Judicial District Grievance Committee (past) </li>
-    </ul>
-  </div>
-  <div>
-    United States
-    <ul>
-      <li> American Bar Association (present) </li>
-    </ul>
-  </div>
-  <div style={{height: "5px"}}></div>
   </div>
 );
 
 let awards_endor = () => (
   <div>
-    <div>
+    <div className="longList">
     Awards
     <ul>
       <li> Orleans County Youth Board: Eileen Heye Adult Volunteer </li>
-      <li> Albion Rotary Club: Paul Harris Award </li>
+      <li> Albion Rotary Club: Paul Harris Fellow </li>
     </ul>
     </div>
-    <div>
+    <div className="longList">
       Recent Endorsements
       <ul>
         <li>Hon. James P. Punch</li>
-        <li>Attorneys (Esq): Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
+        <li>Attorneys: Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
        John Gavenda, Dana Graber, Edward Grabowski, Doug Heath, Tom Mack, Lance Mark,
        Jeff Martin, Andrew Meier, Michael O’Keefe, Nathan Pace, David Schubel</li>
+       <li> Orleans County Republican Party </li>
       </ul>
     </div>
   </div>
@@ -135,7 +123,7 @@ const stepper_data = [
     }
   },
   {
-    title: "Local experience",
+    title: "Legal experience",
     content: local_exp(),
     image: {
       src: "sandy_profile.jpg",
@@ -144,7 +132,7 @@ const stepper_data = [
     }
   },
   {
-    title: "Local involvement",
+    title: "Community service",
     content: loc_inv(),
     image: {
       src: "sandy_profile.jpg",
@@ -153,7 +141,16 @@ const stepper_data = [
     }
   },
   {
-    title: "Awards and endorsements",
+    title: "Professional activities",
+    content: prof_act(),
+    image: {
+      src: "sandy_profile.jpg",
+      caption: "Sanford Church, Esq",
+      subcaption: "2017 Candidate for Orleans County Judge"
+    }
+  },
+  {
+    title: "Endorsements",
     content: awards_endor(),
     image: {
       src: "sandy_profile.jpg",
