@@ -3,6 +3,33 @@ import FontIcon from 'material-ui/FontIcon';
 
 const orleans_cc = () => (
   <div>
+    The jurisdiction of this Court includes felony crimes and pistol permits.
+    I have been involved in hundreds of felony cases in several positions:
+    <ul>
+      <li>
+        Assistant District Attorney: responsibilities include
+        felony prosecutions and Grand Jury presentations.
+      </li>
+      <li>
+        Orleans County Public Defender: responsibilities include representing
+        indigent defendants in felony prosecutions, administering the office, and
+        supervising three assistants and two staff members. As part of this role,
+        I work with the County Legislature, the Chief Administrative Officer, and the New York
+        State Office of Indigent Legal Services to coordinate indigent defense in
+        Orleans County.
+      </li>
+      <li>
+        Member of the panel monitoring defendants’ progress in Drug Court.
+      </li>
+      <li>
+        Represents applicants for pistol permits.
+      </li>
+    </ul>
+  </div>
+);
+
+const orleans_fc = () => (
+  <div>
     The jurisdiction of the Court includes child abuse and neglect, child custody,
     child support, paternity, adoption, Persons in Need of Supervision (PINS) and
     other types of cases involving children.  I have been involved in hundreds of family law cases,
@@ -17,19 +44,6 @@ const orleans_cc = () => (
       </li>
       <li>
         Representing the Albion Central School District in prosecuting truants
-      </li>
-    </ul>
-  </div>
-);
-
-const orleans_fc = () => (
-  <div>
-    The jurisdiction of this Court includes primarily Estates. This includes
-    <ul>
-      <li>Representing litigants in numerous estate proceedings</li>
-      <li>
-        Serves as a Guardian ad Litem representing people with disabilities or
-        whereabouts unknown when appointed by the Court
       </li>
     </ul>
   </div>

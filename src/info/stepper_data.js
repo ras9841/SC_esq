@@ -86,24 +86,16 @@ let prof_act = () => (
 );
 
 let awards_endor = () => (
-  <div>
-    <div className="longList">
-    Awards
+  <div className="longList">
+    Recent Endorsements
     <ul>
-      <li> Orleans County Youth Board: Eileen Heye Adult Volunteer </li>
-      <li> Albion Rotary Club: Paul Harris Fellow </li>
+      <li>Hon. James P. Punch</li>
+      <li> Orleans County Republican Party </li>
+      <li> Orleans County Bar Association </li>
+      <li>Attorneys: Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
+     John Gavenda, Dana Graber, Edward Grabowski, Doug Heath, Tom Mack, Lance Mark,
+     Jeff Martin, Andrew Meier, Michael O’Keefe, Nathan Pace, David Schubel</li>
     </ul>
-    </div>
-    <div className="longList">
-      Recent Endorsements
-      <ul>
-        <li>Hon. James P. Punch</li>
-        <li>Attorneys: Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
-       John Gavenda, Dana Graber, Edward Grabowski, Doug Heath, Tom Mack, Lance Mark,
-       Jeff Martin, Andrew Meier, Michael O’Keefe, Nathan Pace, David Schubel</li>
-       <li> Orleans County Republican Party </li>
-      </ul>
-    </div>
   </div>
 );
 
