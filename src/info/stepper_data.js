@@ -146,7 +146,7 @@ const stepper_data = [
     image: {
       src: "sandy_prof.jpg",
       caption: "Building Transfer",
-      subcaption: "Attorney for the Albion Free United Methodist Church",
+      subcaption: "Attorney for the Albion United Methodist Church",
       orientation: "l"
     }
   },
