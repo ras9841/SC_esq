@@ -7,7 +7,7 @@ const orleans_cc = () => (
     I have been involved in hundreds of felony cases in several positions:
     <ul>
       <li>
-        Assistant District Attorney: responsibilities include
+        Assistant District Attorney: responsibilities included
         felony prosecutions and Grand Jury presentations.
       </li>
       <li>
@@ -22,7 +22,7 @@ const orleans_cc = () => (
         Member of the panel monitoring defendants’ progress in Drug Court.
       </li>
       <li>
-        Represents applicants for pistol permits.
+        Representing applicants for pistol permits.
       </li>
     </ul>
   </div>

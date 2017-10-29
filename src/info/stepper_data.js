@@ -89,7 +89,7 @@ let awards_endor = () => (
   <div className="longList">
     Recent Endorsements
     <ul>
-      <li>Hon. James P. Punch</li>
+      <li> Hon. James P. Punch (retired)</li>
       <li> Orleans County Republican Party </li>
       <li> Orleans County Bar Association </li>
       <li>Attorneys: Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
@@ -113,45 +113,45 @@ const stepper_data = [
     title: "Education",
     content: education(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_edu.jpg",
+      caption: "Duke University Law School",
+      subcaption: "Juris Doctor, 1984"
     }
   },
   {
     title: "Legal experience",
     content: local_exp(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_legal.jpg",
+      caption: "Church & Church",
+      subcaption: "Family-run law office"
     }
   },
   {
     title: "Community service",
     content: loc_inv(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_community.jpg",
+      caption: "Albion Rotary-Lions Baseball",
+      subcaption: "Team coach for over 15 years"
     }
   },
   {
     title: "Professional activities",
     content: prof_act(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_prof.jpg",
+      caption: "Building Transfer",
+      subcaption: "Attorney for the Albion Free United Methodist Church"
     }
   },
   {
     title: "Endorsements",
     content: awards_endor(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_end.jpg",
+      caption: "Republican Party Candidate",
+      subcaption: "Fall Orleans Republican Party Rally"
     }
   }
 ];

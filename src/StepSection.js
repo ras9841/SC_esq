@@ -80,7 +80,7 @@ class StepSection extends React.Component {
           {data.map((d, index) => (
             <Step key={index}>
             <StepButton
-              onClick={() => this.setState({stepIndex: index})}
+              onClick={() => this.handleCurrent(index)}
               icon={index === stepIndex ? activeIcon : defaultIcon}
               >
               <span className="stepTitle">
