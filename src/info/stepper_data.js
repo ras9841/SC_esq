@@ -106,7 +106,8 @@ const stepper_data = [
     image: {
       src: "sandy_profile.jpg",
       caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      subcaption: "2017 Candidate for Orleans County Judge",
+      orientation: "p"
     }
   },
   {
@@ -115,7 +116,8 @@ const stepper_data = [
     image: {
       src: "sandy_edu.jpg",
       caption: "Duke University Law School",
-      subcaption: "Juris Doctor, 1984"
+      subcaption: "Juris Doctor, 1984",
+      orientation: "p"
     }
   },
   {
@@ -124,7 +126,8 @@ const stepper_data = [
     image: {
       src: "sandy_legal.jpg",
       caption: "Church & Church",
-      subcaption: "Family-run law office"
+      subcaption: "Family-run law office",
+      orientation: "l"
     }
   },
   {
@@ -133,7 +136,8 @@ const stepper_data = [
     image: {
       src: "sandy_community.jpg",
       caption: "Albion Rotary-Lions Baseball",
-      subcaption: "Team coach for over 15 years"
+      subcaption: "Team coach for over 15 years",
+      orientation: "p"
     }
   },
   {
@@ -142,7 +146,8 @@ const stepper_data = [
     image: {
       src: "sandy_prof.jpg",
       caption: "Building Transfer",
-      subcaption: "Attorney for the Albion Free United Methodist Church"
+      subcaption: "Attorney for the Albion Free United Methodist Church",
+      orientation: "l"
     }
   },
   {
@@ -151,7 +156,8 @@ const stepper_data = [
     image: {
       src: "sandy_end.jpg",
       caption: "Republican Party Candidate",
-      subcaption: "Fall Orleans Republican Party Rally"
+      subcaption: "Fall Orleans Republican Party Rally",
+      orientation: "l"
     }
   }
 ];
