@@ -7,7 +7,6 @@ const pImgStyle = {
   minWidth: "0px"
 };
 
-
 const lCard = {
   marginTop: "10%"
 };
@@ -18,7 +17,6 @@ const pCard = {
 }
 
 const ImageSection = (props) => {
-  console.log(props.selectedIndex)
   let selectedImage = props.data[props.selectedIndex].image;
   return (
     <Card style={selectedImage.orientation === "p" ? pCard : lCard}>
