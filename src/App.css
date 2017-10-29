@@ -5,4 +5,5 @@ body {
   width: 100%;
   background-color: #f9f9f9;
   color: #444;
+  min-height: 1500px;
 }
