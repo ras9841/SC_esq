@@ -6,7 +6,11 @@
 .lowerContent > .imageContainer {
   width: 48%;
   float: left;
-  display: flex;
+  align-self: center;
+  align-content: center;
+  padding-top: 21px;
+  max-width: 500px;
+  min-width: 0px;
 }
 
 .lowerContent > .stepContainer {

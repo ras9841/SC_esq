@@ -18,9 +18,7 @@ class LowerContent extends Component {
     return (
       <div id="learn-more" className="lowerContent">
         <div className="imageContainer">
-          <span style={{float: "right"}}>
-            <ImageSection data={stepper_data} selectedIndex={this.state.selected}/>
-          </span>
+          <ImageSection data={stepper_data} selectedIndex={this.state.selected}/>
         </div>
         <div className="stepContainer">
           <StepSection data={stepper_data} setParentState={this.setIndex.bind(this)}/>
