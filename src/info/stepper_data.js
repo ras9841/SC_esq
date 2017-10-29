@@ -123,8 +123,8 @@ const stepper_data = [
     content: local_exp(),
     image: {
       src: "sandy_legal.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      caption: "Church & Church",
+      subcaption: "Family-run law office"
     }
   },
   {
@@ -132,8 +132,8 @@ const stepper_data = [
     content: loc_inv(),
     image: {
       src: "sandy_community.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      caption: "Albion Rotary-Lions Baseball",
+      subcaption: "Team coach for over 15 years"
     }
   },
   {
@@ -141,8 +141,8 @@ const stepper_data = [
     content: prof_act(),
     image: {
       src: "sandy_prof.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      caption: "Building Transfer",
+      subcaption: "Attorney for the Albion Free United Methodist Church"
     }
   },
   {
@@ -150,8 +150,8 @@ const stepper_data = [
     content: awards_endor(),
     image: {
       src: "sandy_end.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      caption: "Republican Party Candidate",
+      subcaption: "Fall Orleans Republican Party Rally"
     }
   }
 ];
