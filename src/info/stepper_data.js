@@ -89,7 +89,7 @@ let awards_endor = () => (
   <div className="longList">
     Recent Endorsements
     <ul>
-      <li>Hon. James P. Punch</li>
+      <li> Hon. James P. Punch (retired)</li>
       <li> Orleans County Republican Party </li>
       <li> Orleans County Bar Association </li>
       <li>Attorneys: Kevin Allen, James Bell,	Joanne Best, Conrad Cropsey,
@@ -113,16 +113,16 @@ const stepper_data = [
     title: "Education",
     content: education(),
     image: {
-      src: "sandy_profile.jpg",
-      caption: "Sanford Church, Esq",
-      subcaption: "2017 Candidate for Orleans County Judge"
+      src: "sandy_edu.jpg",
+      caption: "Duke University Law School",
+      subcaption: "Juris Doctor, 1984"
     }
   },
   {
     title: "Legal experience",
     content: local_exp(),
     image: {
-      src: "sandy_profile.jpg",
+      src: "sandy_legal.jpg",
       caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
@@ -131,7 +131,7 @@ const stepper_data = [
     title: "Community service",
     content: loc_inv(),
     image: {
-      src: "sandy_profile.jpg",
+      src: "sandy_community.jpg",
       caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
@@ -140,7 +140,7 @@ const stepper_data = [
     title: "Professional activities",
     content: prof_act(),
     image: {
-      src: "sandy_profile.jpg",
+      src: "sandy_prof.jpg",
       caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }
@@ -149,7 +149,7 @@ const stepper_data = [
     title: "Endorsements",
     content: awards_endor(),
     image: {
-      src: "sandy_profile.jpg",
+      src: "sandy_end.jpg",
       caption: "Sanford Church, Esq",
       subcaption: "2017 Candidate for Orleans County Judge"
     }

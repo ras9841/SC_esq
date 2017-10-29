@@ -2,7 +2,9 @@ import React from 'react';
 import {Card, CardMedia, CardTitle} from 'material-ui/Card';
 
 const ImageSection = (props) => {
+  console.log(props.selectedIndex)
   let selectedImage = props.data[props.selectedIndex].image;
+  console.log(selectedImage)
   return (
     <Card>
       <CardMedia
