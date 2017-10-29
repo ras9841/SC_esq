@@ -4,11 +4,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 import './LegalExperience.css';
 
-const btnStyle = {
-  marginBottom: "10px",
-  display: "block",
-}
-
 const defaultColor = "rgb(255, 255, 255)";
 const selectedColor = "rgb(224, 224, 224)";
 
@@ -17,7 +12,7 @@ const LegalTypeBtn = (props) => (
       label={props.name}
       primary={false}
       secondary={false}
-      style={btnStyle}
+      className="temp"
       icon={props.icon}
       fullWidth={true}
       backgroundColor={ props.selected === props.name ? selectedColor: defaultColor}
